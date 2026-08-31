@@ -1,0 +1,6 @@
+{
+	"name": "IntegrationRuntimeOlistDevSFTP",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
