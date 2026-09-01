@@ -1,0 +1,23 @@
+{
+	"name": "DS_SFTP_SAP_Orders",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SFTP_OLIST_SAP_DEV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "SftpLocation",
+				"fileName": "olist_orders_dataset.csv",
+				"folderPath": "/order"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
