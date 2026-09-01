@@ -1,0 +1,15 @@
+{
+	"name": "olist-dev-adf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4f60944e-7458-4cf8-b3c4-7177b7c4c8e1",
+		"tenantId": "20956524-4ba5-43b9-8551-589425d17b8d"
+	}
+}
