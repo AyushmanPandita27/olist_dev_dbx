@@ -1,0 +1,10 @@
+{
+	"name": "LS_ADLS_OLIST_SAP_DEV",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://olistdev1.dfs.core.windows.net/"
+		}
+	}
+}
