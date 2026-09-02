@@ -7,7 +7,7 @@
 			"domain": "https://adb-7405616644345325.5.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/579f4cab-196e-47d6-8037-7244286db52c/resourceGroups/olist-dev-rg/providers/Microsoft.Databricks/workspaces/olist-dev-dbx-eastus-region",
-			"newClusterNodeType": "Standard_DS3_v2",
+			"newClusterNodeType": "Standard_D4s_v5",
 			"newClusterNumOfWorker": "0",
 			"newClusterSparkEnvVars": {
 				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
