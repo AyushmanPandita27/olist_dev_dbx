@@ -7,7 +7,7 @@
 			"domain": "https://adb-7405613908617194.14.azuredatabricks.net",
 			"authentication": "MSI",
 			"workspaceResourceId": "/subscriptions/579f4cab-196e-47d6-8037-7244286db52c/resourceGroups/olist-dev-rg/providers/Microsoft.Databricks/workspaces/olist-dev-dbx",
-			"newClusterNodeType": "Standard_DS3_v2",
+			"newClusterNodeType": "Standard_D4s_v3",
 			"newClusterNumOfWorker": "1",
 			"newClusterVersion": "18.x-scala2.13",
 			"clusterOption": "Fixed",
