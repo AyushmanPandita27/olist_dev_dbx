@@ -219,7 +219,7 @@
 							"type": "SetVariable",
 							"dependsOn": [
 								{
-									"activity": "Notebook1",
+									"activity": "JOB_Validate_Customer_Landing",
 									"dependencyConditions": [
 										"Succeeded"
 									]
@@ -236,8 +236,8 @@
 							}
 						},
 						{
-							"name": "Notebook1",
-							"type": "DatabricksNotebook",
+							"name": "JOB_Validate_Customer_Landing",
+							"type": "DatabricksJob",
 							"dependsOn": [],
 							"policy": {
 								"timeout": "0.12:00:00",
@@ -248,7 +248,7 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"notebookPath": "/Users/ayushmanpandita1999@gmail.com/olist_dev_dbx/NB_Validate_Customer_Landing"
+								"jobId": "471888392595314"
 							},
 							"linkedServiceName": {
 								"referenceName": "LS_Databricks_OLIST_DEV",
