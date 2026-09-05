@@ -248,7 +248,10 @@
 							},
 							"userProperties": [],
 							"typeProperties": {
-								"jobId": "471888392595314"
+								"jobId": "471888392595314",
+								"jobParameters": {
+									"pipeline_run_id": "@pipeline().RunId"
+								}
 							},
 							"linkedServiceName": {
 								"referenceName": "LS_Databricks_OLIST_DEV",
@@ -259,6 +262,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"p_pipeline_run_id": {
+				"type": "string"
+			}
+		},
 		"variables": {
 			"v_source_system": {
 				"type": "String",
