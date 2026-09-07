@@ -250,7 +250,14 @@
 							"typeProperties": {
 								"jobId": "471888392595314",
 								"jobParameters": {
-									"pipeline_run_id": "@pipeline().RunId"
+									"pipeline_run_id": {
+										"value": "@pipeline().RunId",
+										"type": "Expression"
+									},
+									"customer_path": {
+										"value": "@concat(\n    'abfss://landing@olistdev1.dfs.core.windows.net/',\n    'SAP/Customer/olist_customers_dataset.csv'\n)",
+										"type": "Expression"
+									}
 								}
 							},
 							"linkedServiceName": {
